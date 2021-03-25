@@ -1,0 +1,96 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+  background-color: FloralWhite;
+  color: black; 
+  
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif; 
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+/* Hides Stop button */
+.hidden {
+  display: none;
+}
+
+/* Hides Images */
+.image1 {
+  display: none;
+}
+
+
+
+/* Button colors and images */
+#button1 {
+    background: lightgreen;
+}
+#button1:active, #button1.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2Fcat.png?v=1616559398589');
+  background-size: 210px 200px ;
+}
+#button2 {
+    background: lightblue;
+}
+#button2:active, #button2.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FScreen%20Shot%202021-03-23%20at%2010.16.23%20PM.png?v=1616563009183');
+  background-size: 200px 200px;
+}
+#button3 {
+    background: pink;
+}
+#button3:active, #button3.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FScreen%20Shot%202021-03-23%20at%2010.31.35%20PM.png?v=1616563925843');
+  background-size: 200px 200px ;
+}
+#button4 {
+    background: lightyellow;
+}
+#button4:active, #button4.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FDog.jpeg?v=1616559407546');
+  background-size: 210px 200px ;
+}
+#button5 {
+    background: LightCoral ;
+}
+#button5:active, #button5.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FScreen%20Shot%202021-03-23%20at%2010.30.16%20PM.png?v=1616563927667');
+  background-size: 200px 200px ;
+}
+#button6 {
+    background: Plum ;
+}
+#button6:active, #button6.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FScreen%20Shot%202021-03-23%20at%2010.25.24%20PM.png?v=1616563540062');
+  background-size: 200px 200px ;
+}
+#button7 {
+    background: lightcyan ;
+}
+#button7:active, #button7.lit {
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2FScreen%20Shot%202021-03-23%20at%2010.19.29%20PM.png?v=1616563206584');
+  background-size: 200px 200px ;
+}
+#button8 {
+    background: SandyBrown ;
+}
+#button8:active, #button8.lit{
+  background-image: url('https://cdn.glitch.com/0b5fcd1f-77b2-4a19-80d3-a50c4accfe19%2Fraccoon.png?v=1616559371444');
+  background-size: 210px 200px ;
+ 
+}
